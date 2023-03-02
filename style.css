@@ -1,0 +1,334 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: white;
+}
+.arrière-plan-1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f6f9;
+}
+.barre-style {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  color: white;
+}
+.Bostorek {
+  color: white;
+}
+
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: #063547;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.positionnement-droit {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+.search-style {
+  background-color: #47b99e;
+  color: white;
+  background-size: 30px;
+  font-size: 0.5em;
+  border-radius: 100px;
+  position: absolute;
+  padding: 10px;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+}
+form {
+  font-size: 2em;
+  position: relative;
+}
+
+.taille-recherche {
+  font-size: 1em;
+}
+
+.premier-text {
+  width: 60%;
+  height: 10%;
+  margin-bottom: 20px;
+}
+.bouton-style {
+  background-color: #47b99e;
+  padding: 10px;
+  border-radius: 50px;
+  width: 200px;
+}
+.premier-alignement {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f6f9;
+}
+.bookstore-color {
+  color: #64c1a8;
+}
+
+.second-section-style {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.container-general {
+  width: 80%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.items-style {
+  width: 25%;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.first-title-style {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+.third-container-style {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f6f9;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.books-description-style {
+  width: 30%;
+  height: 60%vh;
+  text-align: left;
+}
+.comments-style {
+  width: 40%;
+  height: 20%;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bulle-style p {
+  color: white;
+}
+
+.bulle-style {
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #063547;
+}
+.quote-color {
+  color: #47b99e;
+}
+.image-shape {
+  border-radius: 100px;
+}
+.image-nom {
+  width: 200px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.forth-container-style {
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+.forth-section-style {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+.fifth-section-style {
+  width: 100vw;
+  height: 120vh;
+  background-color: #f5f6f9;
+  margin-bottom: 200px;
+}
+.description-photo-livres {
+  width: 90%;
+}
+.btn-Janvier {
+  width: 200px;
+  padding: 10px;
+  background-color: #063547;
+  border-radius: 20px;
+  color: white;
+  position: absolute;
+  top: 380px;
+}
+.assortiment-livres {
+  width: 40%;
+  height: 90%;
+  position: relative;
+  padding-bottom: 100px;
+  box-shadow: 0px 0px 10px rgb(142, 48, 48);
+}
+.fifth-container-style {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f6f9;
+  display: flex;
+  justify-content: space-around;
+}
+.input-first {
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.input-message {
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 0px 20px 80px 15px;
+}
+.btn-formulaire {
+  width: 400px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #47b99e;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.formulaire-style {
+  width: 40vw;
+  height: 40vh;
+}
+
+.sixth-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.sixth-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+.seventh-section-style {
+  width: 100vw;
+  height: 100vh;
+}
+footer {
+  width: 100%;
+  height: 40%;
+  background-color: #063547;
+}
+.colonne-1 {
+  width: 20%;
+}
+
+.aboutus-paragraphe {
+  width: 100%;
+  color: white;
+}
+.colonne-2 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 0px;
+}
+.icone-phrase {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.colonne-3 {
+  width: 300px;
+  height: 200px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.last-formular {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.btn-subscribe {
+  width: 200px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #47b99e;
+}
+.input-taille {
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+}
+.localisation-academy {
+  padding-top: 15px;
+  padding-right: 30px;
+}
+.alignement-footer {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+.écriture {
+  color: white;
+}
+.background-icone {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+}
+.rights-page {
+  margin-top: 40px;
+  width: 100vw;
+  text-align: center;
+}
+.newsletter-taille {
+  width: 300px;
+  height: 20px;
+  padding-top: 5px;
+}
